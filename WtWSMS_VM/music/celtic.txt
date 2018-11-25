@@ -1,0 +1,110 @@
+# Celtic Songs - less likely to fire for non-Celtic characters
+
+song = {
+	name = "slur_jig.ogg"
+	
+	chance = {
+		factor = 1
+
+		modifier = {
+			factor = 2
+			culture_group = celtic
+		}
+	}		
+}
+song = {
+	name = "fanny_power.ogg"
+	
+	chance = {
+		factor = 1
+
+		modifier = {
+			factor = 2
+			culture_group = celtic
+		}
+	}		
+}
+song = {
+	name = "irish_polka.ogg"
+	
+	chance = {
+		factor = 1
+
+		modifier = {
+			factor = 2
+			culture_group = celtic
+		}
+	}		
+}
+song = {
+	name = "fair_rose.ogg"
+	
+	chance = {
+		factor = 1
+
+		modifier = {
+			factor = 2
+			culture_group = celtic
+		}
+	}		
+}
+song = {
+	name = "the_highlanders.ogg"
+	
+	chance = {
+		factor = 1
+
+		modifier = {
+			factor = 2
+			culture_group = celtic
+		}
+	}		
+}
+song = {
+	name = "wild_mountain_thyme.ogg"
+	
+	chance = {
+		factor = 1
+
+		modifier = {
+			factor = 2
+			culture_group = celtic
+		}
+	}		
+}
+song = {
+	name = "rosemary_dancing.ogg"
+	
+	chance = {
+		factor = 1
+
+		modifier = {
+			factor = 2
+			culture_group = celtic
+		}
+	}		
+}
+song = {
+	name = "the_lovely_rose.ogg"
+	
+	chance = {
+		factor = 1
+
+		modifier = {
+			factor = 2
+			culture_group = celtic
+		}
+	}		
+}
+song = {
+	name = "irish_green.ogg"
+	
+	chance = {
+		factor = 1
+
+		modifier = {
+			factor = 2
+			culture_group = celtic
+		}
+	}		
+}

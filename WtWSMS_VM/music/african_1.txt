@@ -1,0 +1,83 @@
+# African songs - less likely to fire for non-Africans
+
+song = {
+	name = "griots_hovel.ogg"
+	
+	chance = {
+		factor = 1.5
+		modifier = {
+			factor = 0.2
+			NOT = {
+				OR = {
+					culture_group = west_african
+					culture_group = north_african
+					culture_group = east_african
+					culture = egyptian_arabic
+					culture = maghreb_arabic
+					culture = sudanese_arabic
+				}
+			}
+		}
+	}		
+}
+song = {
+	name = "hausa_travel.ogg"
+	
+	chance = {
+		factor = 1.5
+		modifier = {
+			factor = 0.2
+			NOT = {
+				OR = {
+					culture_group = west_african
+					culture_group = north_african
+					culture_group = east_african
+					culture = egyptian_arabic
+					culture = maghreb_arabic
+					culture = sudanese_arabic
+				}
+			}
+		}
+	}		
+}
+song = {
+	name = "malian_jig.ogg"
+	
+	chance = {
+		factor = 1.5
+		modifier = {
+			factor = 0.2
+			NOT = {
+				OR = {
+					culture_group = west_african
+					culture_group = north_african
+					culture_group = east_african
+					culture = egyptian_arabic
+					culture = maghreb_arabic
+					culture = sudanese_arabic
+				}
+			}
+		}
+	}		
+}
+song = {
+	name = "savanna_breeze.ogg"
+	
+	chance = {
+		factor = 1.5
+		modifier = {
+			factor = 0.2
+			NOT = {
+				OR = {
+					culture_group = west_african
+					culture_group = north_african
+					culture_group = east_african
+					culture = egyptian_arabic
+					culture = maghreb_arabic
+					culture = sudanese_arabic
+				}
+			}
+		}
+	}		
+}
+

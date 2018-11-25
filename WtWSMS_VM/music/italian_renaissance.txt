@@ -1,0 +1,114 @@
+# Italian Renaissance songs - more likely to fire for Republics or those in the latin culture group
+
+song = {
+	name = "croutons.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = latin
+				is_merchant_republic = yes
+				is_patrician = yes
+				is_republic = yes
+			}
+		}
+	}		
+}
+song = {
+	name = "flora_contemplates.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = latin
+				is_merchant_republic = yes
+				is_patrician = yes
+				is_republic = yes
+			}
+		}
+	}		
+}
+song = {
+	name = "flora_smiles.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = latin
+				is_merchant_republic = yes
+				is_patrician = yes
+				is_republic = yes
+			}
+		}
+	}		
+}
+song = {
+	name = "night_crickets.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = latin
+				is_merchant_republic = yes
+				is_patrician = yes
+				is_republic = yes
+			}
+		}
+	}		
+}
+song = {
+	name = "saltarello.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = latin
+				is_merchant_republic = yes
+				is_patrician = yes
+				is_republic = yes
+			}
+		}
+	}		
+}
+song = {
+	name = "sicilian_vespers.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = latin
+				is_merchant_republic = yes
+				is_patrician = yes
+				is_republic = yes
+			}
+		}
+	}		
+}
+song = {
+	name = "tuscan_country.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = latin
+				is_merchant_republic = yes
+				is_patrician = yes
+				is_republic = yes
+			}
+		}
+	}		
+}

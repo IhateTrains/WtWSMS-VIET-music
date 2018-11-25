@@ -1,0 +1,46 @@
+# Gregorian/Catholic Chant Songs - more likely to fire for Catholics
+
+song = {
+	name = "ave_maris_stella.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			religion_group = christian
+		}
+	}		
+}
+song = {
+	name = "florentine_forest.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			religion_group = christian
+		}
+	}		
+}
+song = {
+	name = "iberian_villa.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			religion_group = christian
+		}
+	}		
+}
+song = {
+	name = "venetian_grill.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			religion_group = christian
+		}
+	}		
+}

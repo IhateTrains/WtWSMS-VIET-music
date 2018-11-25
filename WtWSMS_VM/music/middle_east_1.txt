@@ -1,0 +1,140 @@
+# Middle Eastern songs - less likely to fire for Christians and Pagans
+
+song = {
+	name = "Oud.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.2
+			OR = {
+				religion_group = christian
+				religion_group = pagan_group
+			}
+		}
+	}		
+}
+song = {
+	name = "oud_2.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.2
+			OR = {
+				religion_group = christian
+				religion_group = pagan_group
+			}
+		}
+	}		
+}
+song = {
+	name = "adhaan.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = { #Muslim call to prayers - wouldn't' make sense for non-Muslims, now would it?
+			factor = 0
+			NOT = {
+				religion_group = muslim
+			}
+		}
+	}		
+}
+song = {
+	name = "persian_song.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.2
+			OR = {
+				religion_group = christian
+				religion_group = pagan_group
+			}
+		}
+	}		
+}
+song = {
+	name = "amazigh.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.2
+			OR = {
+				religion_group = christian
+				religion_group = pagan_group
+			}
+		}
+		modifier = {
+			factor = 1.5
+			culture_group = north_african
+		}
+	}		
+}
+song = {
+	name = "atlas_mountains.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.2
+			OR = {
+				religion_group = christian
+				religion_group = pagan_group
+			}
+		}
+		modifier = {
+			factor = 1.5
+			culture_group = north_african
+		}
+	}		
+}
+song = {
+	name = "berber_melody.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.2
+			OR = {
+				religion_group = christian
+				religion_group = pagan_group
+			}
+		}
+		modifier = {
+			factor = 1.5
+			culture_group = north_african
+		}
+	}		
+}
+song = {
+	name = "persian_cafe.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.2
+			OR = {
+				religion_group = christian
+				religion_group = pagan_group
+			}
+		}
+	}		
+}
+song = {
+	name = "persian_ramble.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.2
+			OR = {
+				religion_group = christian
+				religion_group = pagan_group
+			}
+		}
+	}		
+}
+

@@ -1,0 +1,5 @@
+next version
+-----------------
+
+- Inital release of WtWSMS VIET Music
+-- Music Pack 1 without one song, which was of low quality

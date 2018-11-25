@@ -1,0 +1,57 @@
+# Gregorian/Catholic Chant Songs - more likely to fire for Catholics
+
+song = {
+	name = "angels_above.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			religion = catholic
+		}
+	}
+}
+song = {
+	name = "ave_maria.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			religion = catholic
+		}
+	}
+}
+song = {
+	name = "inside_the_cathedral.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			religion = catholic
+		}
+	}
+}
+song = {
+	name = "kyrie_eleison.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			religion = catholic
+		}
+	}
+}
+song = {
+	name = "vergine_bella.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			religion = catholic
+		}
+	}
+}

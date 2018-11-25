@@ -1,0 +1,102 @@
+# French Renaissance songs - more likely to fire for Republics or those with Frankish, Norman, Dutch, or Occitanian cultures
+
+song = {
+	name = "best_clothes.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture = dutch
+				culture = norman
+				culture = frankish
+				culture = occitanian
+			}
+		}
+	}		
+}
+song = {
+	name = "distant_past.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				religion_group = christian
+				religion_group = pagan_group
+			}
+		}
+	}		
+}
+song = {
+	name = "business_talent.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				religion_group = christian
+				religion_group = pagan_group
+			}
+		}
+	}		
+}
+song = {
+	name = "her_helpless_partner.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				religion_group = christian
+				religion_group = pagan_group
+			}
+		}
+	}		
+}
+song = {
+	name = "lovers_quarrel.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				religion_group = christian
+				religion_group = pagan_group
+			}
+		}
+	}		
+}
+song = {
+	name = "silent_farewell.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				religion_group = christian
+				religion_group = pagan_group
+			}
+		}
+	}		
+}
+song = {
+	name = "tail_of_happiness.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				religion_group = christian
+				religion_group = pagan_group
+			}
+		}
+	}		
+}

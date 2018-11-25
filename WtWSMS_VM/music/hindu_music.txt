@@ -1,0 +1,83 @@
+# Indian songs - will fire only if character has Indian/Hindu courtiers, or is Hindu him/herself
+
+song = {
+	name = "serenity.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = indo_aryan_group
+				culture_group = dravidian_group
+				any_demesne_province = {
+					culture_group = indo_aryan_group
+				}
+				any_demesne_province = {
+					culture_group = dravidian_group
+				}
+			}
+		}
+	}		
+}
+song = {
+	name = "ganges.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = indo_aryan_group
+				culture_group = dravidian_group
+				any_demesne_province = {
+					culture_group = indo_aryan_group
+				}
+				any_demesne_province = {
+					culture_group = dravidian_group
+				}
+			}
+		}
+	}		
+}
+song = {
+	name = "hindu_song.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = indo_aryan_group
+				culture_group = dravidian_group
+				any_demesne_province = {
+					culture_group = indo_aryan_group
+				}
+				any_demesne_province = {
+					culture_group = dravidian_group
+				}
+			}
+		}
+	}		
+}
+song = {
+	name = "sunrise_of_flutes.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = indo_aryan_group
+				culture_group = dravidian_group
+				any_demesne_province = {
+					culture_group = indo_aryan_group
+				}
+				any_demesne_province = {
+					culture_group = dravidian_group
+				}
+			}
+		}
+	}		
+}
+
